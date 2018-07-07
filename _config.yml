@@ -1,0 +1,11 @@
+# basic options
+title: Title
+author: Graham Mc
+email: email@domain.com
+description: Personal Jekyll sute
+twitter_username: mcfroob
+github_username:  pekoto
+
+# Build settings
+markdown: kramdown
+theme: minima
