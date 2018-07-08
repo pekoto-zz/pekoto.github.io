@@ -1,7 +1,20 @@
-- name: Super awesome project
-  link: github.com/sproogen
-  github: sproogen/resume-theme
-  quote: >
-    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+- name: Fast Fuzzy String Matcher
+  link: https://github.com/pekoto/FastFuzzyStringMatcherDotNet
+  overview: >
+    A BK tree implementation for fast fuzzy string matching.
   description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    See project pages for technical details and code: [C# version](https://github.com/pekoto/FastFuzzyStringMatcherDotNet), [Java version](https://github.com/pekoto/FastFuzzyStringMatcher)
+
+    Also available on NuGet using the command: `Install-Package FastFuzzyStringMatcher`
+
+    Developed using: <mark>C#</mark>, <mark>Visual Studio</mark>, <mark>Java</mark>, <mark>JUnit</mark>
+
+- name: Fighty Dot
+  link: https://github.com/pekoto/fightydot
+  overview: >
+    A tricky puzzle game for iOS, using Firebase and negamax for AI.
+  description: | # this will include new lines to allow paragraphs
+    See project pages for technical details, screenshots and code: [Github link](https://github.com/pekoto/fightydot).
+    Or check it out on the [App Store](https://itunes.apple.com/th/app/fighty-dot-single-local-multiplayer-board-game/).
+
+    Designed & Developed using: <mark>Swift</mark>, <mark>Xcode</mark>, <mark>Sketch</mark>, <mark>Google Firebase</mark>, <mark>Cocoa</mark>

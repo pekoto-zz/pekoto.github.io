@@ -18,7 +18,7 @@ linkedin_username: graham-mcrobbie
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Graham and I'm a software developer from Scotland currently living in Osaka, Japan.
+  Hi, my name's Graham. I'm a software developer from Scotland currently working in Osaka, Japan.
 
   As well as designing, developing, testing and deploying software, I also have
   experience of managing projects, priorities, deadlines and deliverables.
