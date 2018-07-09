@@ -104,6 +104,13 @@ ul.icons a {
   font-size: 1.6em;
 }
 
+.left-column figcaption {
+  font-size: 2em;
+  color: inherit;
+  font-style: italic;
+  font-weight: 300;
+}
+
 .experience, .education, .project {
   margin-top:30px;
 }
@@ -162,4 +169,8 @@ p.company-description {
   font-size: 1.6em;
   font-weight: bold;
   font-style: italic;
+}
+
+img.company-logo {
+  padding: 40px 0px 0px 0px;
 }

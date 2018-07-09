@@ -2,15 +2,14 @@
   <h3>{{ site.experience_title | default: "Experience" }}</h3>
   {% for experience in site.data.experience %}
     <div class="row clearfix experience">
-      <div class="col-xs-12 col-sm-4 col-md-3 left-column">
+    <div class="col-xs-12 col-sm-4 col-md-3 left-column">
         <figure>
-            <img class="figure-img img-fluid" src="{{ experience.company_logo }}">
-            <figcaption class="text-center"><a href="https://{{ experience.link }}" target="_blank">{{ experience.link }}</a></figcaption>
+            <img class="figure-img img-fluid company-logo" src="{{ experience.company_logo }}">
+            <figcaption class="text-center">{{ experience.company_summary }}</figcaption>
         </figure>
       </div>
       <div class="col-xs-12 col-sm-8 col-md-9">
-        <h4><a href=https://{{ experience.link}} target="_blank">{{ experience.company }}</a></h4>
-        <p class="company_summary">{{ experience.company_summary }} </p>
+        <h4><a href={{ experience.link}} target="_blank">{{ experience.company }}</a></h4>
         <p class="summary">{{ experience.job_title }}, {{ experience.dates }}</p>
         {{ experience.description | strip | markdownify }}
       </div>
