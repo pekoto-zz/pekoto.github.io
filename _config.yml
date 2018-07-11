@@ -1,57 +1,47 @@
-# Site
-repository: pekoto/pekoto.github.io
+title: Your awesome title
+author: GitHub User
+email: your-email@domain.com
+description: > # this means to ignore newlines until "twitter_username:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-# favicon: images/favicon.ico
+# social links
+twitter_username: jekyllrb
+github_username:  jekyll
+rss: rss
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
 
-# Personal info
-name: Graham W. McRobbie
-title: Software Developer
-email: graham.mcrobbie@gmail.com
-website: https://pekoto.github.io
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
 
-# Social links
-twitter_username: mcfroob
-github_username:  pekoto
-linkedin_username: graham-mcrobbie
 
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Graham. I'm a software developer from Scotland currently working in Osaka, Japan.
+show_excerpts: false # set to true to show excerpts on the homepage
 
-  As well as designing, developing, testing and deploying software, I also have
-  experience of managing projects, priorities, deadlines and deliverables.
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
 
-  Recent work: <mark>web applications</mark>, <mark>database development</mark>
-  and <mark>mobile applications</mark>.
-
-# Projects Section
-# projects_title: Projects
-
-# Experience Section
-# experience_title: Experience
-
-# Education Section
-# educaton_title: Education
-
-# More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in software development and programming some of my other interests are:
-   - Running
-   - Translation
-   - Writing
-
-# Footer
-footer_show_references: false
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
 # Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
+theme: minima
 
 plugins:
+ - jekyll-feed
  - jekyll-seo-tag
