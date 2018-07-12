@@ -1,0 +1,62 @@
+- name: Fast Fuzzy String Matcher
+  link: https://github.com/pekoto/FastFuzzyStringMatcherDotNet
+  overview: >
+    A BK tree implementation for fast fuzzy string matching.
+  description: | # this will include new lines to allow paragraphs
+    See project pages for technical details and code: [C# version](https://github.com/pekoto/FastFuzzyStringMatcherDotNet){:target="_blank"}, [Java version](https://github.com/pekoto/FastFuzzyStringMatcher){:target="_blank"}
+
+    Get it on NuGet using the command: `Install-Package FastFuzzyStringMatcher`
+
+    <img src="https://raw.githubusercontent.com/pekoto/FastFuzzyStringMatcher/master/images/search-2.png" width="354" height="316" />
+
+    _Developed using:_ <mark>C#</mark>, <mark>Visual Studio</mark>, <mark>Java</mark>, <mark>JUnit</mark>
+
+    ---
+
+- name: Fighty Dot
+  link: https://github.com/pekoto/fightydot
+  overview: >
+    A tricky puzzle game for iOS, using Firebase and negamax AI. Developed just for fun.
+  description: | # this will include new lines to allow paragraphs
+    See project pages for technical details, screenshots and code: [Github link](https://github.com/pekoto/fightydot){:target="_blank"}.
+    Or check it out on the [App Store](https://itunes.apple.com/th/app/fighty-dot-single-local-multiplayer-board-game/){:target="_blank"}.
+
+    <img src="https://raw.githubusercontent.com/pekoto/fightydot/master/screenshot-1.jpg" width="248" height="442" /> <img src="https://raw.githubusercontent.com/pekoto/fightydot/master/screenshot-2.jpg" width="248" height="442" /> <img src="https://raw.githubusercontent.com/pekoto/fightydot/master/screenshot-3.jpg" width="248" height="442" />
+
+    _Designed & Developed using:_ <mark>Swift</mark>, <mark>Xcode</mark>, <mark>Sketch</mark>, <mark>Google Firebase</mark>, <mark>Cocoa</mark>
+
+    ---
+
+- name: Stop Swipe Photos
+  link: https://itunes.apple.com/us/app/stop-swipe-photos/
+  overview: >
+    A password-protected photo gallery app for iOS.
+  description: | # this will include new lines to allow paragraphs
+    This is just a small app that I developed for a friend who kept asking for something like this.
+    Uses Firebase for analytics and crash reporting.
+    Check it out on the [App Store](https://itunes.apple.com/us/app/stop-swipe-photos/){:target="_blank"}.
+
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple1/v4/ec/fe/ea/ecfeea27-a05d-9107-fdb8-00f6075c54ad/pr_source.jpg/460x0w.jpg" width="248" height="442" /> <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple1/v4/76/61/88/766188b3-5bca-7104-5dbf-1da898558476/pr_source.jpg/460x0w.jpg" width="248" height="442" /> <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple49/v4/2c/51/b8/2c51b8f7-8d45-ebb8-8590-56deae497fc2/pr_source.jpg/474x0w.jpg" width="248" height="442" />
+
+    _Designed & Developed using:_ <mark>Swift</mark>, <mark>Xcode</mark>, <mark>Sketch</mark>, <mark>Google Firebase</mark>, <mark>Cocoa</mark>
+
+    ---
+
+- name: Oh My Godheads
+  link: http://ohmygodheads.com/
+  overview: >
+    A fast-paced local multiplayer game for PC, PlayStation 4, and Xbox One.
+  description: | # this will include new lines to allow paragraphs
+    I developed this game for fun with some friends from work. It got picked up and published by Square-Enix.
+    I worked on a bunch of things:
+      * Game programming (in particular animation programming, gameplay, audio and UI)
+      * Level design
+      * Character concepts
+
+    Game design was a collaborative effort, of course.
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hm0JEiDaJ40" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    [Check](https://www.pcgamer.com/oh-my-godheads-review/){:target="_blank"} [out](https://www.rockpapershotgun.com/2017/04/10/oh-my-godheads-early-access/#more-440319){:target="_blank"} [some](https://www.psu.com/reviews/oh-my-godheads-review/){:target="_blank"} [reviews](http://xboxgamerreviews.com/oh-my-godheads-review/){:target="_blank"}, or pick it up on [Steam](https://store.steampowered.com/app/522740/Oh_My_Godheads/){:target="_blank"}.
+
+    _Developed using:_ <mark>Unity</mark>, <mark>C#</mark>, <mark>(Some) Blender</mark>

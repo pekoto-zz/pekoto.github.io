@@ -1,0 +1,14 @@
+<div class="container education-container">
+  <h3>{{ site.education_title | default: "Education" }}</h3>
+  {% for education in site.data.education %}
+    <div class="row clearfix education">
+      <div class="col-xs-12">
+        <h4>{{ education.qualification }}</h4>
+        <p><b>{{ education.name }}</b></p>
+        {%- if education.description -%}
+          {{ education.description | strip | markdownify }}
+        {%- endif -%}
+      </div>
+    </div>
+  {% endfor %}
+</div>
