@@ -111,10 +111,6 @@ ul.icons a {
   font-weight: 300;
 }
 
-.experience, .education, .project {
-  margin-top:30px;
-}
-
 .footer-container {
   margin-top:100px;
 }
@@ -187,6 +183,48 @@ img.company-logo {
   line-height: 25px;
   max-width: 600px;
   width: 85%
+}
+
+.education h1 {
+  font-size: 33px;
+  font-weight: 300
+}
+
+.education h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.education p {
+  line-height: 25px;
+  max-width: 600px;
+  width: 85%
+}
+
+.education .institution p {
+  font-size: 14px;
+  font-style: italic;
+  color: #717171;
+  line-height: 5px;
+  max-width: 600px;
+  width: 85%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.education .description p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #717171;
+  font-style: italic;
+
+}
+
+.education .qualification {
+  margin-bottom: 30px;
 }
 
 .ml h1 {

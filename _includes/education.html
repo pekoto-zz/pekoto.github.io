@@ -1,14 +1,36 @@
 <div class="container education-container">
-  <h3>{{ site.education_title | default: "Education" }}</h3>
-  {% for education in site.data.education %}
-    <div class="row clearfix education">
-      <div class="col-xs-12">
-        <h4>{{ education.qualification }}</h4>
-        <p><b>{{ education.name }}</b></p>
-        {%- if education.description -%}
-          {{ education.description | strip | markdownify }}
-        {%- endif -%}
+    <div class="col-xs-12 education">
+      <h1>Education</h1>
+
+      <div class="qualification">
+        <h2>BSc Some Degree (Hons) 1st</h2>
+        <div class="institution">
+          <p>Some University, A town</p>
+        </div>
+        <div class="description">
+          <p>(Notes on this qualification)</p>
+        </div>
       </div>
+
+      <div class="qualification">
+        <h2>BSc Some Degree (Hons) 1st</h2>
+        <div class="institution">
+          <p>Some University, A town</p>
+        </div>
+        <div class="description">
+          <p>(Notes on this qualification)</p>
+        </div>
+      </div>
+
+      <div class="qualification">
+        <h2>BSc Some Degree (Hons) 1st</h2>
+        <div class="institution">
+          <p>Some University, A town</p>
+        </div>
+        <div class="description">
+          <p>(Notes on this qualification)</p>
+        </div>
+      </div>
+
     </div>
-  {% endfor %}
 </div>
