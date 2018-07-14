@@ -189,6 +189,17 @@ img.company-logo {
   width: 85%
 }
 
+.ml h1 {
+  font-size: 33px;
+  font-weight: 300
+}
+
+.ml p {
+  line-height: 25px;
+  max-width: 600px;
+  width: 85%
+}
+
 .work h1 {
   font-size: 33px;
   font-weight: 300
@@ -246,7 +257,7 @@ img.company-logo {
 .card-based-include .cards {
   margin: 0 -25px;
   display: flex;
-  padding: 5px 25px 25px 25px;
+  padding: 5px 25px 0px 25px;
   overflow: hidden;
   justify-content: flex-start;
   align-items: center;

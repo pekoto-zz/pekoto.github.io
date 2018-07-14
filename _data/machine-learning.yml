@@ -1,27 +1,22 @@
 - name: Python for Data Analysis
   link: http://nbviewer.jupyter.org/github/pekoto/MyJupyterNotes/blob/master/Python%20for%20Data%20Analysis.ipynb
   description: | # this will include new lines to allow paragraphs
-    Notes on data wrangling and analysis.
+    Data wrangling and analysis.
 
 - name: CNN intro
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/lesson2-notes.ipynb
   description: | # this will include new lines to allow paragraphs
-    Notes on training CNNs, adjusting the learning rate.
+    Training CNNs, adjusting the learning rate.
 
 - name: Keras/TensorFlow
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%202%20%28Keras%29.ipynb
   description: | # this will include new lines to allow paragraphs
-    Some sample code showing the basics to get a Keras-based model up and running.
+    Sample code to get a Keras-based model up and running.
 
 - name: Getting data/recognizing images
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%203%20%28Getting%20data%2C%20Kaggle%29.ipynb
   description: | # this will include new lines to allow paragraphs
-    Shows how to get data sets from Kaggle and recognize images using the fast.ai framework.
-
-- name: Getting data/recognizing images
-  link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%203%20%28Getting%20data%2C%20Kaggle%29.ipynb
-  description: | # this will include new lines to allow paragraphs
-    Shows how to get data sets from Kaggle and recognize images using the fast.ai framework.
+    Kaggle data sets, recognizing images using the fast.ai framework.
 
 - name: More CNNs
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%204%20%28CNNs%29.ipynb
@@ -31,17 +26,17 @@
 - name: Multi-label Classification
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%205%20%28multi-label%20classification%29.ipynb
   description: | # this will include new lines to allow paragraphs
-    Notes on applying multiple labels to images, instead of just classifying them as one of n things.
+    Applying multiple labels to images, instead of just classifying them as one of n things.
 
 - name: Data Sets/Dropout
   link: https://github.com/pekoto/fast.ai/blob/master/Lesson4-notes1%20(training-validating-test%20sets%2C%20dropout).ipynb
   description: | # this will include new lines to allow paragraphs
-    Explains the differences between different data sets and dropout.
+    Dfferences between different data sets, also dropout.
 
 - name: Structured Data
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson4-notes2%20%28encoding%2C%20predicting%20structured%20data%29.ipynb
   description: | # this will include new lines to allow paragraphs
-    Intro to working with and predicting structured data.
+    Working with and predicting structured data.
 
 - name: Natural Language Processing/Language Models
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson4-notes3%20%28NLP%29.ipynb
@@ -51,19 +46,19 @@
 - name: Collaborative Filtering
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson5-notes1%20%28Collaborative%20filtering%29.ipynb
   description: | # this will include new lines to allow paragraphs
-    Demonstrates collaborative filtering using the fast.ai library and also from scratch using PyTorch/CUDA.
+    Collaborative filtering using fast.ai and also from scratch using PyTorch/CUDA.
 
 - name: Gradient Descent Optimization
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson5-notes2%20%28Gradient%20descent-optimisation%20techniques%29.ipynb
   description: | # this will include new lines to allow paragraphs
-    Notes on gradient descent optimization techniques and more maths behind gradient descent.
+    Gradient descent optimization techniques, maths.
 
 - name: More Gradient Descent
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson6-notes1%20%28GD%29.ipynb
   description: | # this will include new lines to allow paragraphs
-    More notes on gradient descent, showing how it can be used to solve linear regression.
+    Using gradient descent to solve linear regression.
 
 - name: RNNs
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson6-notes2%20%28RNNs%29.ipynb
   description: | # this will include new lines to allow paragraphs
-    Notes on RNNs. How they work and example code.
+    RNNs: how they work and example code.
