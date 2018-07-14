@@ -185,6 +185,25 @@ img.company-logo {
   width: 85%
 }
 
+.skills h1 {
+  font-size: 33px;
+  font-weight: 300
+}
+
+.skills p {
+  line-height: 10px;
+  max-width: 1200px;
+  width: 100%
+}
+
+.skills .main-skills {
+  margin-bottom: 30px;
+}
+
+.skills .strong {
+   font-weight: 400;
+}
+
 .education h1 {
   font-size: 33px;
   font-weight: 300
@@ -194,6 +213,7 @@ img.company-logo {
   font-size: 16px;
   font-weight: 400;
   margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .education p {
@@ -225,17 +245,6 @@ img.company-logo {
 
 .education .qualification {
   margin-bottom: 30px;
-}
-
-.ml h1 {
-  font-size: 33px;
-  font-weight: 300
-}
-
-.ml p {
-  line-height: 25px;
-  max-width: 600px;
-  width: 85%
 }
 
 .work h1 {
@@ -287,8 +296,8 @@ img.company-logo {
 
 .card-based-include p {
   line-height: 25px;
-  max-width: 600px;
-  width: 85%;
+  max-width: 1600px;
+  width: 90%;
   margin-bottom: 0px;
 }
 
