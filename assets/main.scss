@@ -194,7 +194,49 @@ img.company-logo {
   font-weight: 300
 }
 
+.work h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
 .work p {
+  line-height: 25px;
+  max-width: 600px;
+  width: 85%
+}
+
+.work .role p {
+  font-size: 14px;
+  font-style: italic;
+  color: #717171;
+  line-height: 5px;
+  max-width: 600px;
+  width: 85%;
+  margin-top: 0px;
+}
+
+.work .description p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+
+.work .achievements li {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.work .company {
+  margin-bottom: 30px;
+}
+
+.projects h1 {
+  font-size: 33px;
+  font-weight: 300
+}
+
+.projects p {
   line-height: 25px;
   max-width: 600px;
   width: 85%
