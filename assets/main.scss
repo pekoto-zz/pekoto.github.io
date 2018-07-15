@@ -44,28 +44,6 @@ ul.icons a {
   text-align: right;
 }
 
-.header-right p {
-  margin-bottom: 3px;
-}
-
-.header-right a{
-  font-weight:500;
-}
-
-@media (max-width: 768px) {
-  .header-contianer div{
-    text-align: center;
-  }
-
-  .header-right p {
-    text-align: center;
-  }
-
-  .header-left {
-    margin-top: 0px;
-  }
-}
-
 .profile-img {
   width: 200px;
   height: 200px;
@@ -413,6 +391,25 @@ img.company-logo {
   width: 85%;
   text-align: left;
   font-weight: 400;
+}
+
+.header-container {
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 20px;
+  position: relative
+}
+
+.site-nav {
+  float: left;
+}
+
+.site-nav a {
+  font-size: 16px;
+  margin: 0px 10px 0px 10px;
+}
+
+.site-nav .splitter {
+  font-size: 16px;
 }
 
 @media (max-width:1265px) {
