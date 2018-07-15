@@ -185,6 +185,11 @@ img.company-logo {
   width: 85%
 }
 
+.about li {
+  font-size: 16px;
+  line-height: 25px;
+}
+
 .skills h1 {
   font-size: 33px;
   font-weight: 300
@@ -202,6 +207,17 @@ img.company-logo {
 
 .skills .strong {
    font-weight: 400;
+}
+
+.awards h1 {
+  font-size: 33px;
+  font-weight: 300
+}
+
+.awards p {
+  line-height: 15px;
+  max-width: 600px;
+  width: 85%
 }
 
 .education h1 {
