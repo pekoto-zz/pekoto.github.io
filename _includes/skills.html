@@ -2,12 +2,32 @@
     <div class="col-xs-12 skills">
       <h1>Skills</h1>
       <div class="main-skills">
-        <p><strong>Proficient:</strong> Java, C#, SQL</p>
-        <p><strong>Experienced:</strong> Swift, ASP.NET MVC, Visual Basic, HTML, Unity, Git</p>
-        <p><strong>Familiar:</strong> JavaScript, CSS, Python, Ajax, Firebase, Linux (Ubuntu, CentOS), jQuery, Sketch</p>
+        <p>
+          <strong>Proficient:</strong>
+          {% for skill in site.data.skills.proficient %}
+            {{ skill }}
+          {% endfor %}
+        </p>
+        <p>
+          <strong>Experienced:</strong>
+          {% for skill in site.data.skills.experienced %}
+            {{ skill }}
+          {% endfor %}
+        </p>
+        <p>
+          <strong>Familiar:</strong>
+          {% for skill in site.data.skills.familiar %}
+            {{ skill }}
+          {% endfor %}
+        </p>
       </div>
       <div>
-        <p><strong>And some things I've used in a past life...</strong> C++, DirectX, OpenGL, PHP, COBOL (yup), and more!</p>
+        <p>
+          <strong>And some things I've used in a past life...</strong>
+          {% for skill in site.data.skills.other %}
+            {{ skill }}
+          {% endfor %}
+        </p>
       </div>
     </div>
 </div>

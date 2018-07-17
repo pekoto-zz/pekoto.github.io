@@ -1,12 +1,12 @@
-- name: Heriot-Watt University, Edinburgh
+- institution: Heriot-Watt University, Edinburgh
   qualification: BSc Computer Science (Hons) 2:1
-  description: | # this will include new lines to allow paragraphs
 
-- name: Abertay University, Dundee
+- institution: Abertay University, Dundee
   qualification: MSc Computer Games Technology (Distinction)
   description: | # this will include new lines to allow paragraphs
-    _Computer graphics, AI, maths, etc._
+    Computer graphics, AI, maths, etc.
 
-- name: YMCA Japanese Language School, Osaka
-  qualification: JLPT N1 (Japanese language proficiency test, highest level)
+- institution: YMCA Japanese Language School, Osaka
+  qualification: JLPT N1
   description: | # this will include new lines to allow paragraphs
+    Japanese language proficiency test, highest level

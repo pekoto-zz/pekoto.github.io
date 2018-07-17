@@ -7,12 +7,12 @@
   description: | # this will include new lines to allow paragraphs
     I work in the Global Production team developing localization software, tools, and processes. Our software lets translators and project managers work quickly and efficiently so our games can reach millions of fans around the world.
   achievements:
-    - item: 'Designed, developed, deployed and maintain the company's first searchable database/web app for millions of words of translations, split over hundreds of files and multiple languages'
-    - item: 'APIs to query and reuse millions of words of translation data'
-    - item: 'Reduced time it takes to fuzzy match legacy translations over large file sets from hours to minutes'
-    - item: 'Data wrangling and analysis'
-    - item: 'Train new employees in in-house software and processes'
-    - item: 'Workflow, process design, and documentation'
+    - item: Designed, developed, deployed and maintain the company's first searchable database/web app for millions of words of translations, split over hundreds of files and multiple languages
+    - item: APIs to query and reuse millions of words of translation data
+    - item: Reduced time it takes to fuzzy match legacy translations over large file sets from hours to minutes
+    - item: Data wrangling and analysis
+    - item: Train new employees in in-house software and processes
+    - item: Workflow, process design, and documentation
 
 - company: Standard Life Aberdeen
   link: https://www.standardlifeaberdeen.com/
@@ -23,9 +23,9 @@
   description: | # this will include new lines to allow paragraphs
     I worked on various applications related to processing financial transctions and customer data, developing and debugging front end functionality, back end web services, and SQL queries.
   achievements:
-    - 'Java web service development'
-    - 'Debugged critical incident bugs across distributed infrastructure'
-    - 'Mentored new graduates in project to migrate several large applications to new frameworks'
+    - item: Java web service development
+    - item: Debugged critical incident bugs across distributed infrastructure
+    - item: Mentored new graduates in project to migrate several large applications to new frameworks
 
 - company: Rockstar North
   link: http://www.rockstarnorth.com/
@@ -36,9 +36,9 @@
   description: | # this will include new lines to allow paragraphs
     I worked in the QA department testing the online functionality of Grand Theft Auto 4. I also designed and scripted things such as item placements and player checkpoints for online sections of the game.
   achievements:
-    - 'Online/network testing'
-    - 'Game engine scripting/multiplayer level designing'
-    - 'Qualitative feedback & bug reporting'
+    - item: Online/network testing
+    - item: Game engine scripting/multiplayer level designing
+    - item: Qualitative feedback & bug reporting
 
 - company: BEMAC Uzushio Electric
   link: http://www.bemac-uzushio.com/
@@ -49,6 +49,6 @@
   description: | # this will include new lines to allow paragraphs
     I worked in the R&D section as part of the Japanese government's JETRO internship scheme.
   achievements:
-    - 'Japanese/English translation of ISO standards, research materials and so on'
-    - 'Debugging embedded system memory dumps'
-    - 'CAD circuit design'
+    - item: Japanese/English translation of ISO standards, research materials and so on
+    - item: Debugging embedded system memory dumps
+    - item: CAD circuit design

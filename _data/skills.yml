@@ -1,0 +1,30 @@
+proficient:
+  - Java,
+  - C#,
+  - SQL
+
+experienced:
+  - Swift,
+  - ASP.NET MVC,
+  - Visual Basic,
+  - HTML,
+  - Unity,
+  - Git
+
+familiar:
+  - JavaScript,
+  - CSS,
+  - Python,
+  - Ajax,
+  - Firebase,
+  - Linux (Ubuntu, CentOS),
+  - jQuery,
+  - Sketch
+
+other:
+  - C++,
+  - DirectX,
+  - OpenGL,
+  - PHP,
+  - COBOL (yup),
+  - and more!
