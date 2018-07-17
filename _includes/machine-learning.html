@@ -9,200 +9,24 @@
 
       <div class="cards">
 
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
+        {% for note in site.data.machine-learning %}
 
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <div class="card">
+            <a href="{{ note.link }}">
+              <div class="cover">
+                <img src="{{ note.image }}">
               </div>
-            </div>
-          </a>
-        </div>
+              <div class="description">
+                <div class="title">{{ note.name }}</div>
+                <div class="summary">
+                    {{ note.description }}
+                </div>
+              </div>
+            </a>
+          </div>
 
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
+        {% endfor %}
 
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
       </div>
     </div>
 </div>

@@ -4,80 +4,21 @@
       <p>Some personal projects I've built just for fun.</p>
       <div class="cards">
 
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        {% for project in site.data.projects %}
+          <div class="card">
+            <a href="{{ project.link }}">
+              <div class="cover">
+                <img src="{{ project.image }}">
               </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <div class="description">
+                <div class="title">{{ project.name }}</div>
+                <div class="summary">
+                  {{ project.overview }}
+                </div>
               </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="https://www.google.com">
-            <div class="cover">
-              <img src="../images/profile.jpg">
-            </div>
-            <div class="description">
-              <div class="title">Title</div>
-              <div class="summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-          </a>
-        </div>
+            </a>
+          </div>
+        {% endfor %}
 
       </div>
     </div>

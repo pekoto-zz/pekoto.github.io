@@ -2,85 +2,27 @@
   <div class="col-xs-12 work">
     <h1>Professional Experience</h1>
 
-    <div class="company">
-      <h2>Company Name, company description</h2>
-      <div class="role">
-        <p>Software Developer, January 20xx-December 20xx</p>
-      </div>
-      <div class="description">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique nulla in hendrerit efficitur. Phasellus massa ex, eleifend non erat non, tincidunt ornare nisl. Integer lobortis, diam eu luctus porta, lectus eros rutrum sapien. (Company
-          homepage)
-        </p>
-      </div>
-      <div class="achievements">
-        <ul>
-          <li>Achivement 1</li>
-          <li>Achivement 2</li>
-          <li>Achivement 3</li>
-        </ul>
-      </div>
-    </div>
 
-    <div class="company">
-      <h2>Company Name, company description</h2>
-      <div class="role">
-        <p>Software Developer, January 20xx-December 20xx</p>
+    {% for company in site.data.experience %}
+      <div class="company">
+        <h2>{{ company.company }}, {{ company.company_summary }}</h2>
+        <div class="role">
+          <p>{{ company.job_title }}, {{ company.dates }}/p>
+        </div>
+        <div class="description">
+          <p>
+            {{ company.description }}
+          </p>
+        </div>
+        <div class="achievements">
+          <ul>
+            {% for achievement in company.achievements %}
+              <li>{{ achievement.item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
-      <div class="description">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique nulla in hendrerit efficitur. Phasellus massa ex, eleifend non erat non, tincidunt ornare nisl. Integer lobortis, diam eu luctus porta, lectus eros rutrum sapien. (Company
-          homepage)
-        </p>
-      </div>
-      <div class="achievements">
-        <ul>
-          <li>Achivement 1</li>
-          <li>Achivement 2</li>
-          <li>Achivement 3</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="company">
-      <h2>Company Name, company description</h2>
-      <div class="role">
-        <p>Software Developer, January 20xx-December 20xx</p>
-      </div>
-      <div class="description">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique nulla in hendrerit efficitur. Phasellus massa ex, eleifend non erat non, tincidunt ornare nisl. Integer lobortis, diam eu luctus porta, lectus eros rutrum sapien. (Company
-          homepage)
-        </p>
-      </div>
-      <div class="achievements">
-        <ul>
-          <li>Achivement 1</li>
-          <li>Achivement 2</li>
-          <li>Achivement 3</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="company">
-      <h2>Company Name, company description</h2>
-      <div class="role">
-        <p>Software Developer, January 20xx-December 20xx</p>
-      </div>
-      <div class="description">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique nulla in hendrerit efficitur. Phasellus massa ex, eleifend non erat non, tincidunt ornare nisl. Integer lobortis, diam eu luctus porta, lectus eros rutrum sapien. (Company
-          homepage)
-        </p>
-      </div>
-      <div class="achievements">
-        <ul>
-          <li>Achivement 1</li>
-          <li>Achivement 2</li>
-          <li>Achivement 3</li>
-        </ul>
-      </div>
-    </div>
+    {% endfor %}
 
   </div>
 </div>
