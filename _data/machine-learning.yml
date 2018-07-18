@@ -1,42 +1,42 @@
 - name: Python for Data Analysis
   link: http://nbviewer.jupyter.org/github/pekoto/MyJupyterNotes/blob/master/Python%20for%20Data%20Analysis.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml1.jpg
   description: | # this will include new lines to allow paragraphs
-    Data wrangling and analysis.
+    Data wrangling and analysis notes from the book of the same name.
 
 - name: CNN intro
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/lesson2-notes.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml2.jpg
   description: | # this will include new lines to allow paragraphs
     Training CNNs, adjusting the learning rate.
 
 - name: Keras/TensorFlow
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%202%20%28Keras%29.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml3.jpg
   description: | # this will include new lines to allow paragraphs
     Sample code to get a Keras-based model up and running.
 
 - name: Getting data/recognizing images
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%203%20%28Getting%20data%2C%20Kaggle%29.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml4.jpg
   description: | # this will include new lines to allow paragraphs
     Kaggle data sets, recognizing images using the fast.ai framework.
 
 - name: More CNNs
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%204%20%28CNNs%29.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml5.jpg
   description: | # this will include new lines to allow paragraphs
     More in-depth explanation of how CNNs function.
 
 - name: Multi-label Classification
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%205%20%28multi-label%20classification%29.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml6.jpg
   description: | # this will include new lines to allow paragraphs
     Applying multiple labels to images, instead of just classifying them as one of n things.
 
 - name: Data Sets/Dropout
-  link: https://github.com/pekoto/fast.ai/blob/master/Lesson4-notes1%20(training-validating-test%20sets%2C%20dropout).ipynb
-  image: ../images/profile.jpg
+  link: hhttp://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson4-notes1%20%28training-validating-test%20sets%2C%20dropout%29.ipynb
+  image: ../images/ml7.jpg
   description: | # this will include new lines to allow paragraphs
     Dfferences between different data sets, also dropout.
 

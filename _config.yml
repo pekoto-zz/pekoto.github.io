@@ -3,49 +3,6 @@ repository: pekoto/pekoto.github.io
 
 # favicon: images/favicon.ico
 
-# Personal info
-name: Graham McRobbie
-title: Software Developer
-email: graham.mcrobbie@gmail.com
-website: https://pekoto.github.io
-
-# Social links
-twitter_username: mcfroob
-github_username:  pekoto
-linkedin_username: graham-mcrobbie
-
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Graham. I'm a software developer from Scotland currently working in Osaka, Japan.
-
-  As well as designing, developing, testing and deploying software, I also have
-  experience of managing projects, priorities, deadlines and deliverables.
-
-  Recent work: <mark>web applications</mark>, <mark>database development</mark>
-  and <mark>mobile applications</mark>.
-
-# Projects Section
-# projects_title: Projects
-
-# Experience Section
-# experience_title: Experience
-
-# Education Section
-# educaton_title: Education
-
-# More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in software development and programming some of my other interests are:
-   - Running
-   - Translation
-   - Writing
-
-# Footer
-footer_show_references: false
-
 # Build settings
 
 sass:

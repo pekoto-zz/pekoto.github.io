@@ -147,6 +147,10 @@ img.company-logo {
   width: 85%
 }
 
+.about a {
+  border-bottom: 1px dashed;
+}
+
 .about li {
   font-size: 16px;
   line-height: 25px;
@@ -238,8 +242,8 @@ img.company-logo {
 
 .work p {
   line-height: 25px;
-  max-width: 1600px;
-  width: 90%
+  max-width: 800px;
+  width: 85%;
 }
 
 .work .role p {
@@ -261,6 +265,8 @@ img.company-logo {
 .work .achievements li {
   font-size: 16px;
   line-height: 25px;
+  max-width: 600px;
+  width: 85%;
 }
 
 .work .company {
@@ -391,6 +397,7 @@ img.company-logo {
   width: 85%;
   text-align: left;
   font-weight: 400;
+  border-bottom: 1px dashed;
 }
 
 .header-container {
