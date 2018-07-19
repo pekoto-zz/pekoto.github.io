@@ -8,11 +8,10 @@
     I work in the Global Production team developing localization software, tools, and processes. Our software lets translators and project managers work quickly and efficiently so our games can reach millions of fans around the world.
   achievements:
     - item: Designed, developed, deployed and maintain the company's first searchable database/web app for millions of words of translations, split over hundreds of files and multiple languages
-    - item: APIs to query and reuse millions of words of translation data
+    - item: Developed APIs to query and reuse millions of words of translation data
     - item: Reduced time it takes to fuzzy match legacy translations over large file sets from hours to minutes
-    - item: Data wrangling and analysis
+    - item: Data wrangling and analysis to produce schedule & budget estimates
     - item: Train new employees in in-house software and processes
-    - item: Workflow, process design, and documentation
 
 - company: Standard Life Aberdeen
   link: https://www.standardlifeaberdeen.com/
@@ -21,11 +20,11 @@
   company_logo: ../images/standard_life_logo.jpg
   company_summary: Investments & asset management
   description: | # this will include new lines to allow paragraphs
-    I worked on various applications related to processing financial transctions and customer data, developing and debugging front end functionality, back end web services, and SQL queries.
+    I worked on applications handling financial transactions and customer data, developing and debugging back end web services, front end functionality, and SQL queries.
   achievements:
     - item: Java web service development
     - item: Debugged critical incident bugs across distributed infrastructure
-    - item: Mentored new graduates in project to migrate several large applications to new frameworks
+    - item: Mentored new graduates in project to migrate large applications to new framework
 
 - company: Rockstar North
   link: http://www.rockstarnorth.com/
@@ -34,7 +33,7 @@
   company_logo: ../images/rockstar_north_logo.jpg
   company_summary: Video game developer
   description: | # this will include new lines to allow paragraphs
-    I worked in the QA department testing the online functionality of Grand Theft Auto 4. I also designed and scripted things such as item placements and player checkpoints for online sections of the game.
+    I worked in the QA department testing the online functionality of Grand Theft Auto 4. I also designed and scripted things such as item placement and player checkpoints for online sections of the game.
   achievements:
     - item: Online/network testing
     - item: Game engine scripting/multiplayer level designing

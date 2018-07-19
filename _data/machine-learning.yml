@@ -20,7 +20,7 @@
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%203%20%28Getting%20data%2C%20Kaggle%29.ipynb
   image: ../images/ml4.jpg
   description: | # this will include new lines to allow paragraphs
-    Kaggle data sets, recognizing images using the fast.ai framework.
+    Kaggle datasets, recognizing images using the fast.ai framework.
 
 - name: More CNNs
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%204%20%28CNNs%29.ipynb
