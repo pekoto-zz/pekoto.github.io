@@ -8,7 +8,7 @@
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/lesson2-notes.ipynb
   image: ../images/ml2.jpg
   description: | # this will include new lines to allow paragraphs
-    Training CNNs, adjusting the learning rate.
+    Training convolutional neural networks, adjusting the learning rate.
 
 - name: Keras/TensorFlow
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%202%20%28Keras%29.ipynb
@@ -26,7 +26,7 @@
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%204%20%28CNNs%29.ipynb
   image: ../images/ml5.jpg
   description: | # this will include new lines to allow paragraphs
-    More in-depth explanation of how CNNs function.
+    A more in-depth explanation of how CNNs function.
 
 - name: Multi-label Classification
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson3-notes%205%20%28multi-label%20classification%29.ipynb
@@ -38,7 +38,7 @@
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson4-notes1%20%28training-validating-test%20sets%2C%20dropout%29.ipynb
   image: ../images/ml7.jpg
   description: | # this will include new lines to allow paragraphs
-    Dfferences between different data sets, also dropout.
+    Explaining the difference between different data sets, also dropout.
 
 - name: Structured Data
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson4-notes2%20%28encoding%2C%20predicting%20structured%20data%29.ipynb
@@ -74,4 +74,4 @@
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson6-notes2%20%28RNNs%29.ipynb
   image: ../images/ml13.jpg
   description: | # this will include new lines to allow paragraphs
-    RNNs: how they work and example code.
+    How recurrent neural networks work and example code.

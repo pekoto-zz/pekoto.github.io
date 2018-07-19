@@ -17,7 +17,7 @@
     A tricky puzzle game for iOS, using Firebase and negamax AI.
 
 - name: Stop Swipe Photos
-  link: https://itunes.apple.com/us/app/stop-swipe-photos/
+  link: https://itunes.apple.com/us/app/stop-swipe-photos/id1104741007?mt=8
   image: ../images/ssp-1.jpg
   overview: >
     A password-protected photo gallery app for iOS.
@@ -26,4 +26,4 @@
   link: http://ohmygodheads.com/
   image: ../images/omgh.jpg
   overview: >
-    A fast-paced local multiplayer game for PC, PlayStation 4, and Xbox One.
+    A fast-paced multiplayer game for PC, PlayStation 4, and Xbox One.
