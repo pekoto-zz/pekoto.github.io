@@ -35,43 +35,43 @@
     Applying multiple labels to images, instead of just classifying them as one of n things.
 
 - name: Data Sets/Dropout
-  link: hhttp://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson4-notes1%20%28training-validating-test%20sets%2C%20dropout%29.ipynb
+  link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson4-notes1%20%28training-validating-test%20sets%2C%20dropout%29.ipynb
   image: ../images/ml7.jpg
   description: | # this will include new lines to allow paragraphs
     Dfferences between different data sets, also dropout.
 
 - name: Structured Data
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson4-notes2%20%28encoding%2C%20predicting%20structured%20data%29.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml8.jpg
   description: | # this will include new lines to allow paragraphs
     Working with and predicting structured data.
 
 - name: Natural Language Processing/Language Models
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson4-notes3%20%28NLP%29.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml9.jpg
   description: | # this will include new lines to allow paragraphs
     Notes on creating language models.
 
 - name: Collaborative Filtering
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson5-notes1%20%28Collaborative%20filtering%29.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml10.jpg
   description: | # this will include new lines to allow paragraphs
     Collaborative filtering using fast.ai and also from scratch using PyTorch/CUDA.
 
 - name: Gradient Descent Optimization
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson5-notes2%20%28Gradient%20descent-optimisation%20techniques%29.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml11.jpg
   description: | # this will include new lines to allow paragraphs
     Gradient descent optimization techniques, maths.
 
 - name: More Gradient Descent
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson6-notes1%20%28GD%29.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml12.jpg
   description: | # this will include new lines to allow paragraphs
     Using gradient descent to solve linear regression.
 
 - name: RNNs
   link: http://nbviewer.jupyter.org/github/pekoto/fast.ai/blob/master/Lesson6-notes2%20%28RNNs%29.ipynb
-  image: ../images/profile.jpg
+  image: ../images/ml13.jpg
   description: | # this will include new lines to allow paragraphs
     RNNs: how they work and example code.
