@@ -1,24 +1,24 @@
 - name: Fast Fuzzy String Matcher (Java)
   link: https://github.com/pekoto/FastFuzzyStringMatcher
-  image: ../images/bk-1.png
+  image: ../images/bk-1.jpg
   overview: >
     A Java BK tree implementation for fast fuzzy string matching.
 
 - name: Fast Fuzzy String Matcher (C#)
   link: https://github.com/pekoto/FastFuzzyStringMatcherDotNet
-  image: ../images/bk-2.png
+  image: ../images/bk-2.jpg
   overview: >
     A C#/.NET BK tree implementation for fast fuzzy string matching.
 
 - name: Fighty Dot
   link: https://github.com/pekoto/fightydot
-  image: ../images/fd.jpg
+  image: ../images/fd-1.jpg
   overview: >
     A tricky puzzle game for iOS, using Firebase and negamax AI.
 
 - name: Stop Swipe Photos
   link: https://itunes.apple.com/us/app/stop-swipe-photos/
-  image: ../images/ssp.jpg
+  image: ../images/ssp-1.jpg
   overview: >
     A password-protected photo gallery app for iOS.
 
