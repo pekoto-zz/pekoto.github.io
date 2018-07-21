@@ -44,6 +44,25 @@ ul.icons a {
   text-align: right;
 }
 
+.header-container {
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 20px;
+  position: relative
+}
+
+.site-nav {
+  float: left;
+}
+
+.site-nav a {
+  font-size: 16px;
+  margin: 0px 10px 0px 0px;
+}
+
+.site-nav .splitter {
+  font-size: 16px;
+}
+
 .profile-img {
   width: 200px;
   height: 200px;
@@ -414,25 +433,6 @@ img.company-logo {
   text-align: left;
   font-weight: 400;
   border-bottom: 1px dashed;
-}
-
-.header-container {
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 20px;
-  position: relative
-}
-
-.site-nav {
-  float: left;
-}
-
-.site-nav a {
-  font-size: 16px;
-  margin: 0px 10px 0px 10px;
-}
-
-.site-nav .splitter {
-  font-size: 16px;
 }
 
 p {
