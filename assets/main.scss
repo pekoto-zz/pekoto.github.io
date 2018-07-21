@@ -244,6 +244,7 @@ img.company-logo {
   font-size: 16px;
   font-weight: 700;
   margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .work p {
@@ -256,15 +257,17 @@ img.company-logo {
   font-size: 16px;
   font-style: italic;
   color: #717171;
-  line-height: 5px;
+  line-height: 25px;
   max-width: 600px;
   width: 95%;
   margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 .work .description p {
   font-size: 16px;
   line-height: 25px;
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 
@@ -273,6 +276,7 @@ img.company-logo {
   line-height: 25px;
   max-width: 600px;
   width: 85%;
+  text-align: left;
 }
 
 .work .company {
