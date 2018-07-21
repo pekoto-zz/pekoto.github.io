@@ -22,7 +22,7 @@
   description: | # this will include new lines to allow paragraphs
     I worked on applications handling financial transactions and customer data, developing and debugging back end web services, front end functionality, and SQL queries.
   achievements:
-    - item: Java web service development
+    - item: Backend Java web service development
     - item: Debugged critical incident bugs across distributed infrastructure
     - item: Mentored new graduates in project to migrate large applications to new framework
 
