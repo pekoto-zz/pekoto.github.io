@@ -6,44 +6,6 @@
 @import "button";
 @import "type";
 
-ul.icons a:hover {
-  background: rgba(0, 0, 0, 0.025);
-}
-
-ul.icons li {
-  display: inline-block;
-  padding-left: 0.75em;
-}
-
-ul.icons a {
-  -moz-transition: background-color 0.25s ease-in-out;
-  -webkit-transition: background-color 0.25s ease-in-out;
-  -ms-transition: background-color 0.25s ease-in-out;
-  transition: background-color 0.25s ease-in-out;
-  display: inline-block;
-  width: 2.75em;
-  height: 2.75em;
-  line-height: 2.8em;
-  text-align: center;
-  border: 0;
-  box-shadow: none;
-  padding:0;
-  border-radius: 100%;
-  color: #aaa;
-}
-
-.icons i {
-  font-size: 30px;
-  line-height:60px;
-}
-
-.icons {
-  padding: 0;
-  font-size: 1em;
-  margin-bottom:20px;
-  text-align: right;
-}
-
 .header-container {
   border-bottom: 1px solid #e8e8e8;
   min-height: 20px;
@@ -62,66 +24,14 @@ ul.icons a {
   font-size: 16px;
 }
 
-.profile-img {
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  display: block;
-  border-radius: 100px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat, no-repeat;
-  -moz-box-shadow: inset 0 0 20px #636161;
-  -webkit-box-shadow: inset 0 0 20px #636161;
-  box-shadow: inset 0 0 20px #636161;
-}
-
-.into-text-1 {
-  margin-top:30px;
-}
-
 @media only screen and (max-width : 992px) {
   .into-text-1 {
     margin-top:20px;
   }
 }
 
-.left-column a {
-  font-size: 2em;
-  color: inherit;
-  font-style: italic;
-  font-weight: 300;
-}
-
-.left-column p {
-  text-align: left;
-  margin-bottom: 3px;
-  font-size: 1.6em;
-}
-
-.left-column figcaption {
-  font-size: 2em;
-  color: inherit;
-  font-style: italic;
-  font-weight: 300;
-}
-
 .page-content {
   padding: 0;
-}
-
-.contact a {
-  line-height: 50px;
-  margin-left: 30px;
-  color: #BBBBBB;
-  -webkit-transition: color 0.4s ease;
-  -moz-transition: color 0.4s ease;
-  transition: color 0.4s ease;
-}
-
-.contact a:hover {
-  color: #4C4C4C;
 }
 
 p.quote {
@@ -147,13 +57,6 @@ p.company-description {
   font-style: italic;
 }
 
-img.company-logo {
-  padding: 40px 0px 0px 0px;
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .about h1 {
   font-size: 33px;
   font-weight: 300
@@ -167,6 +70,7 @@ img.company-logo {
 
 .about a {
   border-bottom: 1px dashed;
+  text-decoration: none;
 }
 
 .about li {
@@ -431,6 +335,7 @@ img.company-logo {
   width: 85%;
   text-align: left;
   font-weight: 400;
+  text-decoration: none;
   border-bottom: 1px dashed;
 }
 
