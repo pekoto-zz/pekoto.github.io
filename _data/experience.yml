@@ -5,11 +5,12 @@
   company_logo: ../images/capcom-logo.jpg
   company_summary: Video game developer and publisher
   description: | # this will include new lines to allow paragraphs
-    I work in the Global Production team developing localization software, tools, and processes. Our software lets translators and project managers work quickly and efficiently so our games can reach millions of fans around the world.
+    I work in the Global Production team developing software, tools, and processes. Our software lets translators and project managers work quickly and efficiently so our games can reach millions of fans around the world.
   achievements:
-    - item: Designed, developed, deployed and maintain the company's first searchable database/web app for millions of words of translations, split over hundreds of files and multiple languages
-    - item: Developed APIs to query and reuse millions of words of translation data
-    - item: Reduced time it takes to fuzzy match legacy translations over large file sets from hours to minutes
+    - item: Developed from scratch company’s first software to query & reuse millions of words of translation data sourced from 100s of files/multiple languages
+    - item: Implemented REST API to query & reuse translation data
+    - item: Reduced time it takes to fuzzy match legacy translations over large file sets from hours to minutes by implementing Levenshtein distance matching in BK-trees
+    - item: Automated and streamlined workflows by developing software suite to produce document statistics, perform quality checks, automate data fixes, and more
     - item: Data wrangling and analysis to produce schedule & budget estimates
     - item: Train new employees in in-house software and processes
 
@@ -20,11 +21,11 @@
   company_logo: ../images/standard_life_logo.jpg
   company_summary: Investments & asset management
   description: | # this will include new lines to allow paragraphs
-    I worked on applications handling financial transactions and customer data, developing and debugging back end web services, front end functionality, and SQL queries.
+    I worked on applications handling financial transactions and customer data, doing front end and back development.
   achievements:
-    - item: Backend Java web service development
-    - item: Debugged critical incident bugs across distributed infrastructure
-    - item: Mentored new graduates in project to migrate large applications to new framework
+    - item: Implemented core business logic to process customer and financial data by developing Java web services, front end functionality, and SQL queries
+    - item: Debugged critical incident bugs across distributed system
+    - item: Executed project to migrate large applications to new framework, refactoring code, writing automated test suites, and leading new graduates
 
 - company: Rockstar North
   link: http://www.rockstarnorth.com/
@@ -33,11 +34,11 @@
   company_logo: ../images/rockstar_north_logo.jpg
   company_summary: Video game developer
   description: | # this will include new lines to allow paragraphs
-    I worked in the QA department testing the online functionality of Grand Theft Auto 4. I also designed and scripted things such as item placement and player checkpoints for online sections of the game.
+    I tested the online functionality of Grand Theft Auto 4. I also designed and scripted things such as item placement and player checkpoints for online sections of the game.
   achievements:
-    - item: Online/network testing
-    - item: Game engine scripting/multiplayer level designing
-    - item: Qualitative feedback & bug reporting
+    - item: Identified and worked out how to replicate hundreds of bugs
+    - item: Designed and implemented multiplayer checkpoints, item placement, etc., using RAGE engine scripting
+    - item: Initiated user experience improvements via qualitative feedback
 
 - company: BEMAC Uzushio Electric
   link: http://www.bemac-uzushio.com/
@@ -48,6 +49,6 @@
   description: | # this will include new lines to allow paragraphs
     I worked in the R&D section as part of the Japanese government's JETRO internship scheme.
   achievements:
-    - item: Japanese/English translation of ISO standards, research materials and so on
-    - item: Debugging embedded system memory dumps
-    - item: CAD circuit design
+    - item: Identified system crashes by debugging embedded system memory dumps
+    - item: Launched proposal for new integrated maritime control system, designing prototype UI, control flow, etc.
+    - item: Accelerated adoption of modern technical standards by researching and translating technical docs
